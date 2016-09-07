@@ -20,7 +20,10 @@ docker login   – Registra ou faz o login em um servidor de registry.
 docker logout  – Faz o logout de um servidor de registry.
 docker logs    – Exibe os logs de um container.
 docker port    – Abre uma porta do host e do container.
+docker network – Gerenciamento das redes do Docker.
+docker node    – Gerenciamento dos nodes do Docker Swarm.
 docker pause   – Pausa o container.
+docker port    – Lista as portas mapeadas de um container.
 docker ps      – Lista todos os containers.
 docker pull    – Faz o pull de uma imagem a partir de um servidor de registry.
 docker push    – Faz o push de uma imagem a partir de um servidor de registry.
@@ -31,13 +34,17 @@ docker rmi     – Remove uma ou mais imagens.
 docker run     – Executa um comando em um novo container.
 docker save    – Salva a imagem em um arquivo .tar.
 docker search  – Procura por uma imagem no Docker Hub.
+docker service – Gernciamento dos serviços do Docker.
 docker start   – Inicia um container que esteja parado.
 docker stats   – Exibe informações de uso de CPU, memória e rede.
 docker stop    – Para um container que esteja rodando.
+docker swarm   – Clusterização das aplicações em uma orquestração de várias containers, aplicações junto.
 docker tag     – Coloca tag em uma imagem para o repositorio.
 docker top     – Exibe os processos rodando em um container.
 docker unpause – Inicia um container que está em pause.
+docker update  – Atualiza a configuração de um ou mais containers.
 docker version – Exibe as versões de API, Client e Server do host.
+docker volume  – Gerenciamento dos volumes no Docker.
 docker wait    – Aguarda o retorno da execução de um container para iniciar esse container.
 
 Obs.: É possível ver todos os comandos que o Docker possui, tendo o docker instalado, basta digitar no terminal docker --help
